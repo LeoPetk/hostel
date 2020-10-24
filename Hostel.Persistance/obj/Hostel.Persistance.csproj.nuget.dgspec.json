@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {}
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj",
         "projectName": "Hostel.Application",
-        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj",
         "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\obj\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
-                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
         "projectName": "Hostel.Domain",
-        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
         "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\obj\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
         "projectName": "Hostel.Persistance",
-        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
         "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -172,8 +172,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
-                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj"
               }
             }
           }

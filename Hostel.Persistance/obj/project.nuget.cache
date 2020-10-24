@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gkxcSJsrabn58p0NM/CHvgl6buvfd80lnyT53hXvO0miPLp8s8z56+kyeWqNwj/LdC13Q35DD6BeO2nhTcV6XA==",
+  "dgSpecHash": "GXR7rpqpPyvMD2kNT727dhdba+/PCstOPXoqh4/gyPvi9Lpi+SbqcFXMH/tqaIwwuml3GVlLGXKooQ1HfLPdKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vvuko\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\vvuko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

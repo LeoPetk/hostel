@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+agsCkO5NpbDNOMj50F8MfKWhnTYNsSZ3sjd0Xfbtp4zv4Cd590AsbUvQ2719DCfqyraqxYoklXJVuEJPGEuJg==",
+  "dgSpecHash": "YnERRhJWagOQaFE/LKX+mjkReK8ufezTy246SMW0cIsSBt4OCBc9GeuAB/M1DjrOEfGNK5Poi5xUKv3TnV2Mlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
       "projectName": "Hostel.Domain",
-      "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+      "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
       "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\obj\\",
+      "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

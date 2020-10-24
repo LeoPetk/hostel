@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GR9J5rYcR93QKns0AupIIbsbFkfdBs4tGUY24RbgleSoaaYMWdkhYfVQMjWtDlpR6UtBV7w10yV7mLJlxc+D9A==",
+  "dgSpecHash": "EWdFhFMe2cpyYBgp22GF4ymj4MdrGahQ6NGVl419piDIOSHeAEntahG1ujz+pxuVwedFz5ef7+jnIUDLQiEmvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj",
+  "projectFilePath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\Project\\hostel\\Hostel.Application\\Hostel.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vvuko\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\vvuko\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
