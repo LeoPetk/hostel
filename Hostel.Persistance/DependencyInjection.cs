@@ -12,7 +12,7 @@ namespace Hostel.Persistance
     {
         public static IServiceCollection AddPersistance(this IServiceCollection services, IConfiguration configuration)
         {
-            string connection = configuration["ConnectionStrings:HostelConnectionN"];
+            string connection = configuration["ConnectionStrings:HostelConnectionV"];
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddDbContext<HostelContext>(_ => _.UseSqlServer(connection).EnableSensitiveDataLogging());
 

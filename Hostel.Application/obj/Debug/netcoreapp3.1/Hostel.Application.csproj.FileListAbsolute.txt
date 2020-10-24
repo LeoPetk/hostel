@@ -10,3 +10,15 @@ C:\Users\leope\source\repos\Hostel.App\Hostel.Application\obj\Debug\netcoreapp3.
 C:\Users\leope\source\repos\Hostel.App\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.csproj.CopyComplete
 C:\Users\leope\source\repos\Hostel.App\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.dll
 C:\Users\leope\source\repos\Hostel.App\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.pdb
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\bin\Debug\netcoreapp3.1\Hostel.Application.deps.json
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\bin\Debug\netcoreapp3.1\Hostel.Application.dll
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\bin\Debug\netcoreapp3.1\Hostel.Application.pdb
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\bin\Debug\netcoreapp3.1\Hostel.Domain.dll
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\bin\Debug\netcoreapp3.1\Hostel.Domain.pdb
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.csprojAssemblyReference.cache
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.AssemblyInfoInputs.cache
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.AssemblyInfo.cs
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.csproj.CoreCompileInputs.cache
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.csproj.CopyComplete
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.dll
+C:\Users\vvuko\Desktop\FilesAndProjects\HostelApp\App\hostel\hostel\Hostel.Application\obj\Debug\netcoreapp3.1\Hostel.Application.pdb

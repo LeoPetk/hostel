@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Api\\Hostel.Api.csproj": {}
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Api\\Hostel.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Api\\Hostel.Api.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Api\\Hostel.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Api\\Hostel.Api.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Api\\Hostel.Api.csproj",
         "projectName": "Hostel.Api",
-        "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Api\\Hostel.Api.csproj",
-        "packagesPath": "C:\\Users\\leope\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Api\\obj\\",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Api\\Hostel.Api.csproj",
+        "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leope\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vvuko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,11 +31,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj": {
-                "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj"
               },
-              "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\Hostel.Persistance.csproj": {
-                "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\Hostel.Persistance.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj"
               }
             }
           }
@@ -74,18 +78,22 @@
         }
       }
     },
-    "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj",
         "projectName": "Hostel.Application",
-        "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj",
-        "packagesPath": "C:\\Users\\leope\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\obj\\",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj",
+        "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leope\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vvuko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\Hostel.Domain.csproj": {
-                "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\Hostel.Domain.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj"
               }
             }
           }
@@ -155,18 +163,22 @@
         }
       }
     },
-    "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\Hostel.Domain.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\Hostel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
         "projectName": "Hostel.Domain",
-        "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\Hostel.Domain.csproj",
-        "packagesPath": "C:\\Users\\leope\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Domain\\obj\\",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\Hostel.Domain.csproj",
+        "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leope\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vvuko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -207,18 +219,22 @@
         }
       }
     },
-    "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\Hostel.Persistance.csproj": {
+    "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\Hostel.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
         "projectName": "Hostel.Persistance",
-        "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\Hostel.Persistance.csproj",
-        "packagesPath": "C:\\Users\\leope\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Persistance\\obj\\",
+        "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\Hostel.Persistance.csproj",
+        "packagesPath": "C:\\Users\\vvuko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Persistance\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leope\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vvuko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -230,8 +246,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj": {
-                "projectPath": "C:\\Users\\leope\\source\\repos\\Hostel.App\\Hostel.Application\\Hostel.Application.csproj"
+              "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj": {
+                "projectPath": "C:\\Users\\vvuko\\Desktop\\FilesAndProjects\\HostelApp\\App\\hostel\\hostel\\Hostel.Application\\Hostel.Application.csproj"
               }
             }
           }
