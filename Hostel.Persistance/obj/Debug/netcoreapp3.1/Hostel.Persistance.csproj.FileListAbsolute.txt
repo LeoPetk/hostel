@@ -1,0 +1,17 @@
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Persistance.deps.json
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Persistance.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.csprojAssemblyReference.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.AssemblyInfoInputs.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.AssemblyInfo.cs
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Persistance.runtimeconfig.json
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Persistance.runtimeconfig.dev.json
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.genruntimeconfig.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Persistance.pdb
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Application.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Domain.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Application.pdb
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\bin\Debug\netcoreapp3.1\Hostel.Domain.pdb
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.csproj.CopyComplete
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Persistance\obj\Debug\netcoreapp3.1\Hostel.Persistance.pdb

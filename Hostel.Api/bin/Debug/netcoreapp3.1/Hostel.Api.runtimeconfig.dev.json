@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\leope\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\leope\\.nuget\\packages"
+    ]
+  }
+}

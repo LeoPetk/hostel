@@ -1,0 +1,9 @@
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\bin\Debug\netcoreapp3.1\Hostel.Domain.deps.json
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\bin\Debug\netcoreapp3.1\Hostel.Domain.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\bin\Debug\netcoreapp3.1\Hostel.Domain.pdb
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.AssemblyInfoInputs.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.AssemblyInfo.cs
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.dll
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.pdb
+C:\Users\leope\source\repos\Hostel.App\Hostel.Domain\obj\Debug\netcoreapp3.1\Hostel.Domain.csprojAssemblyReference.cache
