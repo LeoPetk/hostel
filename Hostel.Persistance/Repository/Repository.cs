@@ -22,5 +22,20 @@ namespace Hostel.Persistance.Repository
         {
             return await _context.Set<T>().ToListAsync();
         }
+
+        public void Add<T>(T entity)
+        {
+            _context.Add(entity);
+        }
+
+        public void Delete<T>(T entity)
+        {
+            _context.Remove(entity);
+        }
+
+        public async Task<bool> SaveAll()
+        {
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }
