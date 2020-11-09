@@ -12,30 +12,44 @@ namespace Hostel.Persistance.Repository
     public class Repository<T> : IRepository<T> where T: class
     {
         private readonly HostelContext _context;
+        private readonly DbSet<T> _table;
 
         public Repository(HostelContext context)
         {
             _context = context;
+            _table = _context.Set<T>();
         }
 
         public async Task<IEnumerable<T>> GetAsync()
         {
-            return await _context.Set<T>().ToListAsync();
+            return await _table.ToListAsync();
         }
 
-        public void Add<T>(T entity)
+        public void Add(T entity) 
         {
-            _context.Add(entity);
+            _table.Add(entity);
         }
 
-        public void Delete<T>(T entity)
+        public async Task<T> GetById(Guid entityId)
         {
-            _context.Remove(entity);
+            return await _table.FindAsync(entityId);
         }
 
-        public async Task<bool> SaveAll()
+        public void Update(T entity)
         {
-            return await _context.SaveChangesAsync() > 0;
+            _table.Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
+        }
+
+        public async Task Delete(Guid entityId)
+        {
+            var entity = await _table.FindAsync(entityId);
+            _table.Remove(entity);
+        }
+
+        public async Task Save()
+        {
+             await _context.SaveChangesAsync();
         }
     }
 }

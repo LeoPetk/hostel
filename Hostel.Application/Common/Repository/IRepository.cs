@@ -9,8 +9,10 @@ namespace Hostel.Application.Common.Repository
     public interface IRepository<T> where T: class
     {
         Task<IEnumerable<T>> GetAsync();
-        void Add<T>(T entity);
-        void Delete<T>(T entity);
-        Task<bool> SaveAll();
+        void Add(T entity);
+        Task<T> GetById(Guid entityId);
+        void Update(T entity);
+        Task Delete (Guid entityId);
+        Task Save();
     }
 }
