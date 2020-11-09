@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Hostel.Application.Common.Repository;
@@ -22,17 +23,17 @@ namespace Hostel.Persistance.Repository
 
         public async Task<IEnumerable<T>> GetAsync()
         {
-            return await _table.ToListAsync();
+            return await _table.AsNoTracking().ToListAsync();
         }
 
+        public async Task<T> GetByAsync(Expression<Func<T,bool>> expression)
+        {
+            return await _table.AsNoTracking().SingleOrDefaultAsync(expression);
+        }
+        
         public void Add(T entity) 
         {
             _table.Add(entity);
-        }
-
-        public async Task<T> GetById(Guid entityId)
-        {
-            return await _table.FindAsync(entityId);
         }
 
         public void Update(T entity)
@@ -41,13 +42,13 @@ namespace Hostel.Persistance.Repository
             _context.Entry(entity).State = EntityState.Modified;
         }
 
-        public async Task Delete(Guid entityId)
+        public async Task DeleteAsync(Guid entityId)
         {
             var entity = await _table.FindAsync(entityId);
             _table.Remove(entity);
         }
 
-        public async Task Save()
+        public async Task SaveAsync()
         {
              await _context.SaveChangesAsync();
         }
