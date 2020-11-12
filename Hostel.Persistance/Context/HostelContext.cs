@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 using Hostel.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hostel.Persistance.Context
 {
-    public class HostelContext : DbContext
+    public class HostelContext : IdentityDbContext<IdentityUser<Guid>, IdentityRole<Guid>, Guid>
     {
         public HostelContext(DbContextOptions options): base(options)
         {
@@ -29,8 +31,27 @@ namespace Hostel.Persistance.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+      
+            IgnoreIdentityTables(modelBuilder);
+            RenameIdentityTables(modelBuilder);
+        }
+
+        private void IgnoreIdentityTables(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Ignore<IdentityUserLogin<Guid>>();
+            modelBuilder.Ignore<IdentityUserToken<Guid>>();
+        }
+        
+        private void RenameIdentityTables(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("UserClaims");
+            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("UserRoles");
+            modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("RoleClaims");
+            modelBuilder.Entity<IdentityUser<Guid>>().ToTable("Users");
+            modelBuilder.Entity<IdentityRole<Guid>>().ToTable("Roles");
+            
         }
     }
 }

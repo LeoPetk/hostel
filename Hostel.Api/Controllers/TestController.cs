@@ -6,6 +6,7 @@ using Hostel.Api.Controllers.Base;
 using Hostel.Application.Test.Commands;
 using Hostel.Application.Test.Queries.GetTest;
 using Hostel.Application.Test.Queries.GetTestByCondition;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -13,11 +14,8 @@ namespace Hostel.Api.Controllers
 {
     public class TestController : BaseController
     {
-        public TestController()
-        {
-        }
-
         [HttpGet("Get")]
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             var response = await Mediator.Send(new GetTestQuery());
