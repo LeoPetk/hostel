@@ -18,7 +18,7 @@ namespace Hostel.Application.Helpers.Authentification
         {
             _configuration = configuration;
         }
-        
+
         public async Task<string> CreateJwt(Guid userId, string email)
         {
             var secret = GetSecret();

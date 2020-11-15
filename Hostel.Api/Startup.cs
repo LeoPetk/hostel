@@ -23,6 +23,13 @@ namespace Hostel.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplication();
+            services.AddCors(c =>
+            {
+                c.AddPolicy("HostelCors", b =>
+                {
+                    b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                });
+            });
             services.AddPersistance(Configuration, Environment.MachineName);
             services.AddIdentityConfiguration(Configuration);
             services.AddControllers();
@@ -46,6 +53,7 @@ namespace Hostel.Api
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("HostelCors");
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();

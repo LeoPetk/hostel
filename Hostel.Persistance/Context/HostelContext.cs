@@ -51,7 +51,6 @@ namespace Hostel.Persistance.Context
             modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("RoleClaims");
             modelBuilder.Entity<IdentityUser<Guid>>().ToTable("Users");
             modelBuilder.Entity<IdentityRole<Guid>>().ToTable("Roles");
-            
         }
     }
 }
