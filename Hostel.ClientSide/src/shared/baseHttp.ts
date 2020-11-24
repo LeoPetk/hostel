@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "https://localhost:5001/api/";
+axios.defaults.baseURL = "https://localhost:44376/api/";
 axios.interceptors.request.use((configuration) => {
   const token = localStorage.getItem("access_token");
   if (token) {

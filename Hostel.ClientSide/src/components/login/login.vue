@@ -40,6 +40,7 @@
 import { computed, reactive, ref, watch } from "vue";
 import axios from "axios";
 import router from "@/router";
+import useValidation from "../../hooks/formValidation";
 
 export default {
   name: "login-form",
@@ -54,35 +55,40 @@ export default {
       password: true,
     });
 
+    const validateToken = async () => {
+      const regex = /^[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$/;
+
+      if (regex.test(localStorage.getItem("access_token"))) {
+        await router.replace("/dashboard");
+      } else {
+        localStorage.removeItem("access_token");
+        alert("Invalid token");
+      }
+    };
+
     const submitForm = async () => {
       isFormValid.username = true;
       isFormValid.password = true;
 
-      if (loginModel.username == "" && loginModel.password == "") {
-        isFormValid.username = false;
-        isFormValid.password = false;
+      const validation = useValidation([
+        loginModel.username,
+        loginModel.password,
+      ]);
+
+      if (validation.includes(false)) {
+        isFormValid.username = validation[0];
+        isFormValid.password = validation[1];
         return;
       }
 
-      if (loginModel.username == "") {
-        isFormValid.username = false;
-        return;
+      try {
+        const response = await axios.post("Authentication/Login", loginModel);
+        localStorage.setItem("access_token", response.data);
+        validateToken();
+      } catch (error) {
+        alert(error);
       }
-
-      if (loginModel.password == "") {
-        isFormValid.password = false;
-        return;
-      }
-
-      const response = await axios.post("Authentication/Login", loginModel);
-      localStorage.setItem("access_token", response.data);
-      await router.replace("/dashboard");
     };
-
-    watch(loginModel, (value, oldValue) => {
-      if (value.username != "") isFormValid.username = true;
-      if (value.password != "") isFormValid.password = true;
-    });
 
     return { loginModel, submitForm, isFormValid };
   },

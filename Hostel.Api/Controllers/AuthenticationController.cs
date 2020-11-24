@@ -20,7 +20,7 @@ namespace Hostel.Api.Controllers
         public async Task<IActionResult> Login(LoginUserCommand command)
         {
             var response = await Mediator.Send(command);
-
+            
             return Ok(response);
         }
     }
