@@ -84,7 +84,7 @@ export default {
       try {
         const response = await axios.post("Authentication/Login", loginModel);
         localStorage.setItem("access_token", response.data);
-        validateToken();
+        await validateToken();
       } catch (error) {
         alert(error);
       }
