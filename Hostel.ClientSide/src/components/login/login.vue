@@ -59,7 +59,7 @@ export default {
       const regex = /^[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$/;
 
       if (regex.test(localStorage.getItem("access_token"))) {
-        await router.replace("/dashboard");
+        await router.replace("/app");
       } else {
         localStorage.removeItem("access_token");
         alert("Invalid token");
