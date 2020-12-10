@@ -1,4 +1,5 @@
 using System;
+using Hostel.Api.Middlewares;
 using Hostel.Application;
 using Hostel.Persistance;
 using Microsoft.AspNetCore.Builder;
@@ -54,6 +55,8 @@ namespace Hostel.Api
 
             app.UseHttpsRedirection();
             app.UseCors("HostelCors");
+            app.UseMiddleware<ExceptionMiddleware>();
+            app.UseMiddleware<LoggerMiddleware>();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
