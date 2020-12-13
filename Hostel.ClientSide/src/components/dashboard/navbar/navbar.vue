@@ -7,6 +7,7 @@
         size="2"
         color="lightgray"
       ></vue-fontawesome>
+      <label v-if="expandMenu">{{ props.hostel }}</label>
     </div>
     <div :class="expandMenu ? 'user-information' : 'user-information-expand'">
       <div>
@@ -36,6 +37,7 @@ import router from "@/router";
 
 export default {
   name: "NavBar",
+  props: ["hostel"],
   setup(props: any, context: any) {
     const expandMenu = ref(false);
     const showLogout = ref(false);
@@ -49,7 +51,7 @@ export default {
       await router.replace("/login");
     };
 
-    return { expand, expandMenu, logout, showLogout };
+    return { expand, expandMenu, logout, showLogout, props };
   },
 };
 </script>
@@ -97,6 +99,14 @@ export default {
       &:hover {
         color: white !important;
       }
+    }
+
+    label {
+      margin-left: 60px;
+      font-size: 30px;
+      color: lightgray;
+      margin-top: 3px;
+      font-weight: bold;
     }
   }
 

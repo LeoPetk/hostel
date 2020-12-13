@@ -6,7 +6,9 @@ using AutoMapper;
 using FluentValidation;
 using Hostel.Application.Common.Behaviors;
 using Hostel.Application.Helpers.Authentification;
+using Hostel.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Hostel.Application

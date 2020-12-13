@@ -9,6 +9,8 @@ namespace Hostel.Application.Common.AutoMapper
         public AutoMapper()
         {
             CreateMap<TestEntity, TestDto>();
+            CreateMap<Domain.Entities.Room, RoomDto>();
+            CreateMap<Domain.Entities.Hostel, HostelDto>();
         }
     }
 }

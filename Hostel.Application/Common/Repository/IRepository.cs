@@ -11,6 +11,7 @@ namespace Hostel.Application.Common.Repository
     {
         Task<IEnumerable<T>> GetAsync();
         Task<T> GetByAsync(Expression<Func<T,bool>> expression);
+        Task<IEnumerable<T>> GetListByAsync(Expression<Func<T,bool>> expression);
         void Add(T entity);
         void Update(T entity);
         Task DeleteAsync (Guid entityId);

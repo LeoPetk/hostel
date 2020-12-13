@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Hostel.Domain.Common;
 using Hostel.Domain.Entities.JoinedEntities;
 
@@ -13,5 +14,8 @@ namespace Hostel.Domain.Entities
         }
         public ICollection<Bed> Beds { get; set; }
         public ICollection<ReservationRoom> ReservationRooms { get; set; }
+        
+        public Guid HostelId { get; set; }
+        public Hostel Hostel { get; set; }
     }
 }

@@ -2,7 +2,7 @@
   <div class="app-wrapper">
     <div class="nav-wrapper">
       <div class="nav">
-        <NavBar @expand="expandStatus" />
+        <NavBar @expand="expandStatus" :hostel="hostel" />
       </div>
     </div>
     <div class="body-wrapper">
@@ -17,9 +17,10 @@
 </template>
 
 <script lang="ts">
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
 import NavBar from "../../components/dashboard/navbar/navbar.vue";
 import Menu from "../../components/dashboard/bodyContent/menu/menu.vue";
+import axios from "axios";
 
 export default {
   name: "dashboard",
@@ -33,7 +34,13 @@ export default {
       shouldExpand.value = expandValue;
     };
 
-    return { expandStatus, shouldExpand };
+    const hostel = ref();
+
+    onMounted(async () => {
+      const response = await axios.get("Hostel/hostel");
+      hostel.value = response.data.name;
+    });
+    return { expandStatus, shouldExpand, hostel };
   },
 };
 </script>

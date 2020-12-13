@@ -5,6 +5,6 @@ namespace Hostel.Application.Helpers.Authentification
 {
     public interface IJwtManager
     {
-        Task<string> CreateJwt(Guid userId, string email);
+        Task<string> CreateJwt(Guid userId, string email,Guid hostelId);
     }
 }

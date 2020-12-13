@@ -15,7 +15,6 @@ namespace Hostel.Api.Controllers
     public class TestController : BaseController
     {
         [HttpGet("Get")]
-        [Authorize]
         public async Task<IActionResult> Get()
         {
             var response = await Mediator.Send(new GetTestQuery());

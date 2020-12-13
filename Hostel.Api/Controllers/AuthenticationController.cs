@@ -2,10 +2,12 @@
 using Hostel.Api.Controllers.Base;
 using Hostel.Application.Authentication.Commands.LoginUser;
 using Hostel.Application.Authentication.Commands.RegisterUser;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hostel.Api.Controllers
 {
+    [AllowAnonymous]
     public class AuthenticationController : BaseController
     {
         [HttpPost("Register")]

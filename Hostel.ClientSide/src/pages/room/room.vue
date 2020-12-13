@@ -1,18 +1,23 @@
 <template>
   <div>
-    Room
+    <Rooms />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, reactive } from "vue";
+import Rooms from "../../components/room/room.component.vue";
 
 export default defineComponent({
   name: "Room",
-  setup() {
-    return {};
+  components: {
+    Rooms,
   },
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+div {
+  height: 100%;
+}
+</style>

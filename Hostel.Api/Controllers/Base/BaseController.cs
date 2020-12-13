@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Hostel.Api.Controllers.Base
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class BaseController: ControllerBase
     {

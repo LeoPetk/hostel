@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Hostel.Persistance.Context
 {
-    public class HostelContext : IdentityDbContext<IdentityUser<Guid>, IdentityRole<Guid>, Guid>
+    public class HostelContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
     {
         public HostelContext(DbContextOptions options): base(options)
         {
@@ -22,6 +22,7 @@ namespace Hostel.Persistance.Context
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Bed> Beds { get; set; }
         public DbSet<Annotation> Annotations { get; set; }
+        public DbSet<Domain.Entities.Hostel> Hostels { get; set; }
         #endregion
         
         /// <summary>
@@ -49,7 +50,7 @@ namespace Hostel.Persistance.Context
             modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("UserClaims");
             modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("UserRoles");
             modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("RoleClaims");
-            modelBuilder.Entity<IdentityUser<Guid>>().ToTable("Users");
+            modelBuilder.Entity<User>().ToTable("Users");
             modelBuilder.Entity<IdentityRole<Guid>>().ToTable("Roles");
         }
     }

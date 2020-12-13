@@ -2,10 +2,12 @@
 using System;
 using System.Text;
 using Hostel.Application.Common.Repository;
+using Hostel.Domain.Entities;
 using Hostel.Persistance.Context;
 using Hostel.Persistance.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,13 +22,15 @@ namespace Hostel.Persistance
             string connection = SetConnection(configuration, machineName);
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddDbContext<HostelContext>(_ => _.UseSqlServer(connection).EnableSensitiveDataLogging());
+            // services.AddIdentityCore<User>( x=> {});
+            // services.AddScoped<IUserStore<User>, UserOnlyStore<User, HostelContext, Guid>>();
 
             return services;
         }
 
         public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services,IConfiguration configuration)
         {
-            services.AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>(options =>
+            services.AddIdentity<User, IdentityRole<Guid>>(options =>
             {
                 options.Password.RequireDigit = false;
                 options.Password.RequireUppercase = false;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,11 @@ namespace Hostel.Persistance.Repository
         public async Task<T> GetByAsync(Expression<Func<T,bool>> expression)
         {
             return await _table.AsNoTracking().SingleOrDefaultAsync(expression);
+        }
+        
+        public async Task<IEnumerable<T>> GetListByAsync(Expression<Func<T,bool>> expression)
+        {
+            return await _table.AsNoTracking().Where(expression).ToListAsync();
         }
         
         public void Add(T entity) 

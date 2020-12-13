@@ -19,12 +19,12 @@ namespace Hostel.Application.Helpers.Authentification
             _configuration = configuration;
         }
 
-        public async Task<string> CreateJwt(Guid userId, string email)
+        public async Task<string> CreateJwt(Guid userId, string email, Guid hostelId)
         {
             var secret = GetSecret();
             var jwTokenDescriptor = new SecurityTokenDescriptor()
             {
-                Subject = SetClaimsIdentity(userId, email),
+                Subject = SetClaimsIdentity(userId, email,hostelId),
                 Audience = _configuration["Secret:HostelAudience"],
                 Issuer = _configuration["Secret:HostelIssuer"],
                 Expires = DateTime.UtcNow.AddHours(1),
@@ -35,12 +35,13 @@ namespace Hostel.Application.Helpers.Authentification
             return await Task.FromResult(new JwtSecurityTokenHandler().WriteToken(jwt));
         }
 
-        private ClaimsIdentity SetClaimsIdentity(Guid userId,string email)
+        private ClaimsIdentity SetClaimsIdentity(Guid userId,string email, Guid hostelId)
         {
             return new ClaimsIdentity(new[]
             {
                 new Claim(ClaimTypes.Email, email),
                 new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+                new Claim("HostelId", hostelId.ToString()),
             });
         }
         
